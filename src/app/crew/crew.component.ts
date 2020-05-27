@@ -12,6 +12,7 @@ export class CrewComponent implements OnInit {
     { name: "Ellen Ochoa", firstMission: true },
   ];
   editingName: boolean = false;
+  memberBeingEdited: object = null;
 
   constructor() {}
 
